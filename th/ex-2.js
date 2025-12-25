@@ -20,7 +20,7 @@ const findIfProductsAvailable = (products,targetProduct,targetQuantity) => {
             if(products[i].quantity >= targetQuantity){
                 return `${products[i].quantity} ${products[i].name}(s)are available at Zone ${products[i].zone}`
             } else {
-                return `Sorry, we've got only ${products[i].quantity} ${products[i].name} available at Zone ${products[i].zone}`
+                return `Sorry, we've got only ${products[i].quantity} ${products[i].name}(s) available at Zone ${products[i].zone}`
             }
         }
     }
