@@ -24,7 +24,7 @@ const findIfProductsAvailable = (products,targetProduct,targetQuantity) => {
             }
         }
     }
-    return `We don't have Charger`
+    return `We don't have ${targetProduct}`
 }
 
 
